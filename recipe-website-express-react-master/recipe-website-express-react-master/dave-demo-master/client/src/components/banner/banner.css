@@ -1,0 +1,66 @@
+header {
+  background: linear-gradient(135deg, rgba(87,95,118,1) 0%, rgba(23,29,47,1) 100%);
+
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
+  padding: 0;
+  max-width: 85%;
+
+}
+
+.container .logo {
+  margin-right: 120px;
+  color: white;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-bottom: 10px;
+  padding:22px;
+
+
+}
+
+.main-nav .current {
+  background-color: white;
+  color: #FF6347
+}
+
+.main-nav a {
+  margin-left: 60px;
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 51%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
